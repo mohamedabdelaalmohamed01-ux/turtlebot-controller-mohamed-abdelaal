@@ -1,7 +1,4 @@
 # turtlebot-controller-mohamed-abdelaal
-
-Repository: https://github.com/mohamedabdelaalmohamed01-ux/turtlebot-controller-mohamed-abdelaal
-
 A ROS 2 package containing two nodes:
 - **Publisher (`turtlebot_controller.py`)** — reads keyboard input (W/A/S/D/Q) and publishes `Twist` movement commands to `/cmd_vel`.
 - **Subscriber (`turtlebot_monitor.py`)** — listens to `/cmd_vel` and prints the received linear and angular velocity values in real time.
